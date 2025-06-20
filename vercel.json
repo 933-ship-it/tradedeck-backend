@@ -1,14 +1,9 @@
 {
   "version": 2,
-  "functions": {
-    "api/cverify.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "routes": [
     {
-      "src": "/api/cverify",
-      "dest": "/api/cverify.js"
+      "src": "/api/verify-payment",
+      "dest": "/api/verify-payment.js"
     }
   ]
 }

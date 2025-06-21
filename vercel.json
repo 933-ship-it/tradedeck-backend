@@ -6,8 +6,8 @@
     { "src": "api/send-sale-email.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/api/verify-payment", "dest": "api/verify-payment.js" },
-    { "src": "api/cloudinary-sign.js","dest": "api/upload-image.js" },
-    { "src": "/api/send-sale-email", "dest": "api/send-email.js" }
+    { "src": "/api/verify-payment", "dest": "/api/verify-payment.js" },
+    { "src": "/api/cloudinary-sign", "dest": "/api/cloudinary-sign.js" },
+    { "src": "/api/send-sale-email", "dest": "/api/send-sale-email.js" }
   ]
 }

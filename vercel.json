@@ -4,12 +4,10 @@
     { "src": "api/verify-payment.js", "use": "@vercel/node" },
     { "src": "api/upload-image.js", "use": "@vercel/node" },
     { "src": "api/send-email.js", "use": "@vercel/node" }
-    // Add more API files here as needed
   ],
   "routes": [
     { "src": "/api/verify-payment", "dest": "api/verify-payment.js" },
     { "src": "/api/upload-image", "dest": "api/upload-image.js" },
     { "src": "/api/send-email", "dest": "api/send-email.js" }
-    // Add more routes here as needed
   ]
 }

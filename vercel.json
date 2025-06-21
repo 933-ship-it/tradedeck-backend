@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/api/verify-payment",
-      "dest": "/api/verify-payment.js"
+      "dest": "/api/verify-payment.mjs"
     }
   ]
 }

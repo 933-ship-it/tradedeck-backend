@@ -1,9 +1,6 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "api/verify-payment.js", "use": "@vercel/node" }
-  ],
+  "version": 3,
   "routes": [
-    { "src": "/api/verify-payment", "dest": "api/verify-payment.js" }
+    { "src": "/api/(.*)", "dest": "/api/$1.js" }
   ]
 }

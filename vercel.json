@@ -7,7 +7,7 @@
   ],
   "routes": [
     { "src": "/api/verify-payment", "dest": "api/verify-payment.js" },
-    { "src": "/api/upload-image", "dest": "api/upload-image.js" },
-    { "src": "/api/send-email", "dest": "api/send-email.js" }
+    { "src": "api/cloudinary-sign.js","dest": "api/upload-image.js" },
+    { "src": "/api/send-sale-email", "dest": "api/send-email.js" }
   ]
 }

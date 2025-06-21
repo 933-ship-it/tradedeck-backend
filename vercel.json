@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "functions": {
-    "api/verify-payment.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
+  "builds": [
+    { "src": "api/verify-payment.js", "use": "@vercel/node" }
+  ],
   "routes": [
     { "src": "/api/verify-payment", "dest": "api/verify-payment.js" }
   ]

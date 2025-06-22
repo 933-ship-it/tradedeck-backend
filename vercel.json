@@ -1,11 +1,15 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/verify-payment.js", "use": "@vercel/node" },
-    { "src": "api/send-email.js", "use": "@vercel/node" }
+    {
+      "src": "api/production-app.js",
+      "use": "@vercel/node"
+    }
   ],
   "routes": [
-    { "src": "/api/verify-payment", "dest": "api/verify-payment.js" },
-    { "src": "/api/send-email", "dest": "api/send-email.js" }
+    {
+      "src": "/api/production-app",
+      "dest": "api/production-app.js"
+    }
   ]
 }
